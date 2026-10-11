@@ -1,0 +1,22 @@
+:root {
+    --background-container: rgb(233, 233, 233);
+    --color-container:black;
+    --background-card: rgb(47, 172, 245);
+    --color-card: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr) 200px;
+    gap: 20px;
+    background-color:var(--background-container);
+    color: var(--color-container);
+    padding: 30px;
+}
+.left, .middle, .right {
+    background-color: var(--background-card);
+    color: var(--color-card);
+    padding: 10px;
+
+}
+
